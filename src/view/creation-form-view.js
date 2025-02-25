@@ -98,6 +98,7 @@ export default class CreationFormView {
     this.offers = offers;
     this.destinations = destinations;
   }
+
   getTemplate() {
     return createCreationFormViewTemplate(this.point, this.offers, this.destinations);
   }

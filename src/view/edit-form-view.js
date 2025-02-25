@@ -82,6 +82,7 @@ export default class EditFormView {
     this.offers = offers;
     this.destinations = destinations;
   }
+
   getTemplate() {
     return createEditFormViewTemplate(this.point, this.offers, this.destinations);
   }
